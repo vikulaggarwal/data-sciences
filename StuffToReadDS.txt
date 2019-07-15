@@ -1,0 +1,74 @@
+Sample plots:
+	https://gramener.com/cricket/
+	https://gramener.com/budget/?Year=2007
+	https://gramener.com/software/
+	https://gramener.com/amitabh/
+	
+	https://bokeh.pydata.org/en/latest/
+
+Plots:
+	https://blog.hubspot.com/marketing/types-of-graphs-for-data-visualization
+	
+Miscellaneous:
+	https://stackoverflow.com/questions/22646463/difference-between-and-boolean-vs-bitwise-in-python-why-difference-i
+	https://stackoverflow.com/questions/38619143/convert-python-sequence-to-numpy-array-filling-missing-values
+	https://stackoverflow.com/questions/14933577/swap-slices-of-numpy-arrays/14933939#14933939
+	http://www.stat.columbia.edu/~gelman/arm/missing.pdf
+	https://pandas.pydata.org/pandas-docs/stable/user_guide/missing_data.html
+	
+Data Sets
+
+	https://github.com/awesomedata/awesome-public-datasets
+	https://gramener.com/nas/
+
+Kaggle
+	
+	https://www.kaggle.com/c/titanic
+	https://www.youtube.com/watch?v=YhZXU5zUnO0
+https://hbrascend.org/video/the-explainer-big-data-and-analytics/
+
+http://nirvacana.com/thoughts/2013/07/08/becoming-a-data-scientist/
+
+https://realpython.com/analyzing-obesity-in-england-with-python/#python-vs-excel
+
+https://www.machinelearningplus.com/python/101-pandas-exercises-python
+
+https://towardsdatascience.com/python-basics-for-data-science-6a6c987f2755
+
+https://www.analyticsvidhya.com/blog/2017/05/questions-python-for-data-science/
+
+https://www.dezyre.com/article/100-data-science-in-python-interview-questions-and-answers-for-2018/188
+ 
+https://www.springpeople.com/blog/25-python-questions-answers-for-data-science-interviews/
+
+SQL
+Data Warehouse:
+	https://docs.oracle.com/cd/B10501_01/server.920/a96520/concept.htm
+	https://www.datawarehouse4u.info/OLTP-vs-OLAP.html 
+
+https://www.forbes.com/sites/forbeshumanresourcescouncil/2019/01/14/four-reasons-hr-teams-need-data-science-skills/#4a07767d137d
+
+https://www.quantinsti.com/blog/vectorized-backtesting-in-excel
+
+https://www.w3schools.com/sql/func_mysql_str_to_date.asp
+
+https://www.periscopedata.com/blog/rolling-average
+
+https://mathisonian.github.io/kde/
+
+https://fenix.tecnico.ulisboa.pt/downloadFile/3779576344458/singular-value-decomposition-fast-track-tutorial.pdf
+http://www.d.umn.edu/~mhampton/m4326svd_example.pdf
+
+https://stackoverflow.com/questions/54180546/when-i-convert-my-numpy-array-to-dataframe-it-update-values-to-nan
+
+https://towardsdatascience.com/10-machine-learning-methods-that-every-data-scientist-should-know-3cc96e0eeee9
+
+https://towardsdatascience.com/speed-up-your-exploratory-data-analysis-with-pandas-profiling-88b33dc53625
+
+https://towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-b836fb9c97e2
+
+https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+
+https://www.youtube.com/watch?v=5UjQVJu89_Q
+
+https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/
