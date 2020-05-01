@@ -1,0 +1,52 @@
+-- Solution of Hive questions (Module 3, Session 4):
+
+-- IMPORTANT: BEFORE CREATING ANY TABLE, MAKE SURE YOU RUN THIS COMMAND 
+ADD JAR /opt/cloudera/parcels/CDH/lib/hive/lib/hive-hcatalog-core-1.1.0-cdh5.11.2.jar;
+
+-- 1. correlation between length and overall rating
+select corr(size(split(reviewtext, ' ')), overall)
+from amazon_reviews_table
+where year(from_unixtime(unixreviewtime)) = 2008
+and month(from_unixtime(unixreviewtime)) = 1;
+-- -0.029855284148784713
+
+
+
+-- 2. correlation between length and relative helpfulness
+select corr(size(split(reviewtext, ' ')), cast((helpful[0])/(helpful[1]) as float))
+from amazon_reviews_table
+where year(from_unixtime(unixreviewtime)) = 2008
+and month(from_unixtime(unixreviewtime)) = 1
+and helpful[1] != 0;
+-- 0.14994883834125397
+
+
+
+-- 3. 75th percentile of length of review
+select percentile(size(split(reviewtext, ' ')), 0.75)
+from amazon_reviews_table
+where year(from_unixtime(unixreviewtime)) = 2008
+and month(from_unixtime(unixreviewtime)) = 10;
+-- 206.25 ~ 206
+
+
+
+-- 4.1 average rating of long reviews
+select avg(overall)
+from amazon_reviews_table
+where year(from_unixtime(unixreviewtime)) = 2008
+and size(split(reviewtext, ' ')) >=206
+-- 4.071879854997411
+
+-- 4.2 average rating of short reviews
+select avg(overall)
+from amazon_reviews_table
+where year(from_unixtime(unixreviewtime)) = 2008
+and size(split(reviewtext, ' ')) < 206
+-- 4.1612229952398385
+
+-- Difference
+select 4.071879854997411 - 4.1612229952398385;
+-- -0.08934314024242784
+
+
